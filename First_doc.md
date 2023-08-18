@@ -6,13 +6,13 @@ bibliography: my_bib.bib
 keep-md: true
 ---
 
-```{r}
-#| echo: false
-#| label: fig-first_plot
-#| fig-cap: 'Første plot.'
-#| fig-cap-location: margin
-plot(cars)
-```
+
+::: {.cell .fig-cap-location-margin}
+::: {.cell-output-display}
+![Første plot.](First_doc_files/figure-html/fig-first_plot-1.png){#fig-first_plot width=672}
+:::
+:::
+
 
 Mitt første plot er vist i @fig-first_plot.
 
